@@ -10,7 +10,7 @@ let precioTiendaOnline = 40000;
 let servicioElegido = prompt("Ingresa el servicio deseado, así te cuento cuál es el costo ");
 
 function mostrarPrecio(servicio) {
-    switch (servicio) {
+    switch (servicio.toLowerCase()) {
         case "One Page":
             return ("El servicio elegido: One Page, tiene un costo de  $ " + precioOnePage);
             break;
