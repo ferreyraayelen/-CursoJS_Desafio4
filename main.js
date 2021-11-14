@@ -11,13 +11,13 @@ let servicioElegido = prompt("Ingresa el servicio deseado, así te cuento cuál 
 
 function mostrarPrecio(servicio) {
     switch (servicio.toLowerCase()) {
-        case "One Page":
+        case "one page":
             return ("El servicio elegido: One Page, tiene un costo de  $ " + precioOnePage);
             break;
-        case "Página web":
+        case "pagina web":
             return ("El servicio elegido: Página web, tiene un costo de $ " + precioPaginaWeb);
             break;
-        case "Tienda online":
+        case "tienda online":
             return ("El servicio elegido: Tienda online, tiene un costo de $ " + precioPaginaWeb);
             break;
         default:
